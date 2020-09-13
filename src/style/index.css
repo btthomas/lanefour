@@ -1,0 +1,59 @@
+:root {
+  --black: #000;
+  --off-black: #222;
+  --off-white: #ddd;
+  --white: #fff;
+  --full-width: 960px;
+  --link-color: #1579bd;
+  --link-color-visited: #286f9e;
+}
+
+body {
+  font-family: "Open Sans", Arial, Helvetica;
+  color: var(--black);
+}
+
+header {
+  background-color: var(--black);
+  padding: 2rem 0;
+}
+
+header > h1 {
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: var(--full-width);
+  font-size: 2.75rem;
+  color: var(--off-white);
+}
+
+main {
+  max-width: 960px;
+  margin: 2rem auto 3rem;
+  padding: 0 1rem;
+  min-height: calc(100vh - 16rem);
+}
+
+main p {
+  max-width: 400px;
+  margin: 1rem 0 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+main a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+main a:visited {
+  color: var(--link-color-visited);
+}
+
+footer {
+  max-width: var(--full-width);
+  margin: 2rem auto;
+  padding: 0 1rem;
+  text-align: center;
+  font-size: 1rem;
+  color: var(--off-black);
+}
